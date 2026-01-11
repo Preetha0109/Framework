@@ -38,6 +38,7 @@ class Test_001_Login:
             assert False, "Wrong title displayed"
 
 
+    @pytest.mark.peetha
     def test_login_check(self, setup, pytestconfig):
         self.driver = setup
 
